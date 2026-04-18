@@ -142,7 +142,7 @@ The best model by ROC AUC is saved to `models/churn_model.joblib` and used to sc
 
 ```bash
 # 1. Clone the repo and open the folder
-git clone https://github.com/<your-username>/bank-churn-dashboard.git
+git clone https://github.com/ysbrar/bank-churn-dashboard.git
 cd bank-churn-dashboard
 
 # 2. Create and activate a virtual environment
