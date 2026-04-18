@@ -184,32 +184,6 @@ ORDER BY churn_rate DESC;
 
 ---
 
-## Resume Bullets
-
-```
-• Built an end-to-end bank customer retention analytics system in Python — feature engineering
-  pipeline, 3-model ML comparison (LR, RF, GBT), SQLite analytics layer, and an interactive
-  Streamlit dashboard across 10K+ customer records.
-
-• Trained and evaluated churn prediction models achieving 0.944 ROC AUC; translated model
-  outputs (churn probability, risk band, retention priority) into prioritized action queues
-  for relationship managers.
-
-• Designed SQL-ready customer and segment summary tables with views and starter queries,
-  demonstrating end-to-end skills from raw CSV to business-ready analytics.
-```
-
----
-
-## Ideas for Future Upgrades
-
-- Deploy the Streamlit app to Streamlit Cloud (free, one command)
-- Add a FastAPI scoring endpoint for real-time predictions
-- Connect Power BI or Tableau to the SQLite database
-- Add SHAP values for per-customer explainability
-- Tune hyperparameters with GridSearchCV or Optuna
-
----
 
 ## Dataset
 
