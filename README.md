@@ -97,8 +97,8 @@ Three models were trained and compared on an 80/20 stratified train-test split:
 
 | Model | Accuracy | Precision | Recall | F1 | ROC AUC |
 |---|---|---|---|---|---|
-| Logistic Regression | 0.887 | 0.608 | 0.834 | 0.703 | 0.983 |
-| Random Forest | 0.941 | 0.902 | 0.708 | 0.793 | — |
+| Logistic Regression | 0.887 | 0.608 | 0.834 | 0.703 | 0.944 |
+| Random Forest | 0.941 | 0.902 | 0.708 | 0.793 | 0.983 |
 | Gradient Boosting | 0.968 | 0.952 | 0.846 | 0.896 | 0.992 |
 
 
