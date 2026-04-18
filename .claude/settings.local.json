@@ -3,7 +3,10 @@
     "allow": [
       "Bash(find . -name \"*.py\" -type f ! -path \"./.venv/*\" -exec wc -l {} +)",
       "mcp__Claude_Preview__preview_start",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
