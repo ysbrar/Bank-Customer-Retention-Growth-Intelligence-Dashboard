@@ -13,7 +13,7 @@ An end-to-end machine learning analytics project that answers three real busines
 - **Which segments should be prioritized?** — Multi-dimensional segmentation by age, tenure, engagement, and value
 - **What should the business do?** — Actionable retention and cross-sell recommendations backed by model scores
 
-Built with Python, scikit-learn, SQLite, Streamlit, and Plotly. Designed to be relevant for **data analyst, data science, analytics engineering, and BI internship** roles.
+Built with Python, scikit-learn, SQLite, Streamlit, and Plotly.
 
 ---
 
@@ -26,19 +26,6 @@ Built with Python, scikit-learn, SQLite, Streamlit, and Plotly. Designed to be r
 | Model Insights | Recommendations |
 |---|---|
 | ROC curves (3 models), feature importance, confusion matrix | Priority-ranked action queues for retention and cross-sell |
-
----
-
-## What This Project Demonstrates
-
-| Skill Area | What Was Built |
-|---|---|
-| Data Engineering | Feature engineering pipeline — 10 business-driven derived fields |
-| Machine Learning | 3-model comparison (LR, RF, GBT) with cross-validated ROC AUC |
-| SQL / Analytics | SQLite DB with 3 tables, 2 views, and 4 reusable starter queries |
-| Data Visualization | 10+ interactive Plotly charts with consistent styling and ordering |
-| Business Translation | Model scores → retention priority queues and cross-sell segments |
-| Software Structure | Modular Python package with config, data prep, training, and dashboard layers |
 
 ---
 
@@ -110,11 +97,10 @@ Three models were trained and compared on an 80/20 stratified train-test split:
 
 | Model | Accuracy | Precision | Recall | F1 | ROC AUC |
 |---|---|---|---|---|---|
-| Logistic Regression | 0.887 | 0.608 | 0.834 | 0.703 | 0.944 |
-| Random Forest | — | — | — | — | — |
-| Gradient Boosting | — | — | — | — | — |
+| Logistic Regression | 0.887 | 0.608 | 0.834 | 0.703 | 0.983 |
+| Random Forest | 0.941 | 0.902 | 0.708 | 0.793 | — |
+| Gradient Boosting | 0.968 | 0.952 | 0.846 | 0.896 | 0.992 |
 
-> Exact values are written to `outputs/model_comparison.json` after training. Run `python -m src.train_model` to populate.
 
 The best model by ROC AUC is saved to `models/churn_model.joblib` and used to score all customers.
 
