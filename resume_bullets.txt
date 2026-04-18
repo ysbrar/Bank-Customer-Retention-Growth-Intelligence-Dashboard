@@ -1,0 +1,5 @@
+Built an end-to-end bank customer retention analytics project in Python, SQL, SQLite, Streamlit, and scikit-learn using 10K+ customer records to analyze churn risk, customer value, and cross-sell opportunities.
+
+Engineered business-focused segmentation features and trained an interpretable churn model that achieved 0.944 ROC AUC, then translated results into retention and product-growth recommendations.
+
+Developed an interactive dashboard with KPI cards, segment-level churn analysis, model insights, and prioritized retention targets for business users and recruiters.

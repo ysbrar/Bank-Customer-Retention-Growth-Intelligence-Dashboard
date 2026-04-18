@@ -1,0 +1,8 @@
+{
+  "total_customers": 10127,
+  "churn_rate": 0.1606596227905599,
+  "avg_credit_limit": 8631.953698034955,
+  "avg_tenure_months": 35.928409203120374,
+  "high_risk_customers": 1874,
+  "good_cross_sell_candidates": 1528
+}
