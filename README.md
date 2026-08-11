@@ -15,6 +15,8 @@ An end-to-end machine learning analytics project that answers three real busines
 
 Built with Python, scikit-learn, SQLite, Streamlit, and Plotly.
 
+Live Demo: https://ysbrar-bank-customer-retention-growth-intelligence-d-app-pb2iwu.streamlit.app
+
 ---
 
 ## Dashboard Preview
